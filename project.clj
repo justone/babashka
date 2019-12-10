@@ -15,6 +15,7 @@
                  [org.clojure/core.async "0.4.500"]
                  [org.clojure/tools.cli "0.4.2"]
                  [org.clojure/data.csv "0.1.4"]
+                 [clojure.java-time "0.3.2"]
                  [cheshire "5.9.0"]]
   :profiles {:test {:dependencies [[clj-commons/conch "0.9.2"]]}
              :uberjar {:global-vars {*assert* false}
